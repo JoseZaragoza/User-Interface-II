@@ -36,3 +36,65 @@ footer, header, hgroup, menu, nav, section {
     max-width:100%;
     border:1px solid grey;
 }
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #4f4f4f;
+    background-color: #fbfffb;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    color: white;
+}
+a{
+    color: white;
+}
+.aboutsec{
+    display: flex;
+    margin-top: 5%;
+}
+.bg-img{
+    display:flex;
+    justify-content: center;
+    width: 60%;
+    margin-left: ;
+    
+}
+.text{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: ;
+    width: 70%;
+}
+.text h2{
+    font-size: 30px;
+}
+.text p{
+    width: 50%;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    padding: 2% 4%;
+    border-radius: 1rem;
+    width: 10%;
+    height: 5%;
+}
+
+.projectssec{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.pic{
+    width: 27%;
+}
