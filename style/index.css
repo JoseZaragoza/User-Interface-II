@@ -1,1 +1,134 @@
-/* Add CSS styling here */
+/*CSS Reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    /* border:1px solid black; */
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #4f4f4f;
+    background-color: #042222;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    color: white;
+    height: 10rem;
+}
+.name{
+    margin: 1%;
+}
+a{
+    color: white;
+    margin-left: 1%;
+}
+.aboutsec{
+    display: flex;
+    margin-top: 5%;
+}
+.bg-img{
+    display:flex;
+    justify-content: center;
+    width: 60%;
+    margin-left: ;
+    
+}
+.text{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: ;
+    width: 70%;
+}
+.text h2{
+    font-size: 30px;
+    color: rgb(151, 133, 112);
+}
+.text p{
+    width: 50%;
+    color: rgb(151, 133, 112);
+}
+.text a {
+    width: 15%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: .5rem;
+    background-color: darkslategrey;
+    text-decoration: none;
+    color: rgb(151, 133, 112);
+}
+
+.projectssec{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+.pic{
+    
+    margin: 2% 0;
+}
+.pic, img{
+    width: 35rem;
+    margin: 3px;
+}
+.pic p{
+    text-align: center;
+    color: rgb(151, 133, 112);
+    margin-top: 2%;
+}
+#contact {
+    background-color: grey;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    color:darkslategrey;
+}
+
+#contact a{
+    color: darkslategrey;
+}
+.bottom{
+    text-align: end;
+    margin-right: 1%;
+}
+
+
