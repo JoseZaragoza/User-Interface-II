@@ -34,7 +34,7 @@ footer, header, hgroup, menu, nav, section {
     padding:0;
     margin:0;
     max-width:100%;
-    /* border:1px solid black; */
+    border:1px solid black;
 }
 
 html{
@@ -60,34 +60,34 @@ a{
     color: white;
     margin-left: 1%;
 }
+
 .aboutsec{
     display: flex;
+    justify-content: space-around;
     margin-top: 5%;
 }
-.bg-img{
-    display:flex;
-    justify-content: center;
-    width: 60%;
-    margin-left: ;
-    
+.bg-img img{
+    width: 100%;
 }
 .text{
     display:flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    margin-left: ;
-    width: 70%;
+    justify-content: flex-end;
+    width: 40%;
 }
 .text h2{
     font-size: 30px;
     color: rgb(151, 133, 112);
 }
 .text p{
-    width: 50%;
+    width: 70%;
+    margin-bottom: 1rem;
     color: rgb(151, 133, 112);
 }
 .text a {
     width: 15%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     text-align: center;
     border: 1px solid black;
     border-radius: .5rem;
@@ -131,4 +131,27 @@ a{
     margin-right: 1%;
 }
 
+/* responsive styles */
+
+/* tablet view  */
+
+@media (max-width: 800px) {
+    .bg-img {
+        width: 50%;
+    }
+    .text{
+        width: 45%;
+    }
+    .text a{
+        width: 25%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .text p{
+        width: 100%;
+        line-height: 1.4;
+    }
+}
+
+/* phone view  */
 
