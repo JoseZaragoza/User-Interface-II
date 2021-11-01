@@ -49,13 +49,14 @@ body{
 nav{
     display: flex;
     flex-direction: column;
-    background-color: grey;
+    background-color: slategray;
     color: white;
     height: 10rem;
 }
 .name{
     margin: 1%;
 }
+
 a{
     color: white;
     margin-left: 1%;
@@ -116,15 +117,15 @@ a{
     margin-top: 2%;
 }
 #contact {
-    background-color: grey;
+    background-color: slategray;
     display:flex;
     flex-direction: column;
     text-align: center;
-    color:darkslategrey;
+    color: white;
 }
 
 #contact a{
-    color: darkslategrey;
+    color: white;
 }
 .bottom{
     text-align: end;
@@ -155,3 +156,33 @@ a{
 
 /* phone view  */
 
+@media (max-width: 500px){
+    nav{
+        height: 16rem;
+    }
+    .name{
+        display: flex;
+        justify-content: center;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutsec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bg-img{
+        width: 80%;
+    }
+    .text{
+        display: flex;
+        align-items: center;
+        width: 80%;
+    }
+    .text p{
+        width: 100%;
+    }
+}
